@@ -11,6 +11,7 @@ function MainContent() {
 
   return (
     <main>
+      <h1>Test opening PR</h1>
       <button onClick={toggleHelp}>{helpVisible ? 'Hide' : 'Show'} Help</button>
       {helpVisible && <HelpArea />}
     </main>
